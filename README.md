@@ -11,7 +11,7 @@ Aplikasi manajemen data mahasiswa berbasis web menggunakan Laravel 12 dengan fit
 
 ## Deskripsi
 
-Aplikasi CRUD Mahasiswa adalah sistem informasi sederhana untuk mengelola data mahasiswa dengan antarmuka yang modern dan responsif. Aplikasi ini dibangun menggunakan Laravel framework dengan Bootstrap 5 untuk tampilan UI.
+Ini adalah Aplikasi CRUD Mahasiswa dari Tugas Mata kuliah - Pemrograman Berbasis Framwork yang dimana memiliki sistem informasi sederhana untuk mengelola data mahasiswa dengan antarmuka yang modern dan responsif. Aplikasi ini dibangun menggunakan Laravel framework dengan Bootstrap 5 untuk tampilan UI.
 
 ## Fitur
 
@@ -90,24 +90,11 @@ http://localhost:8000/mahasiswa
 | created_at | timestamp | Auto |
 | updated_at | timestamp | Auto |
 
-## Routing
-
-| Method | URI | Action | Route Name |
-|--------|-----|--------|------------|
-| GET | /mahasiswa | index | mahasiswa.index |
-| GET | /mahasiswa/create | create | mahasiswa.create |
-| POST | /mahasiswa | store | mahasiswa.store |
-| GET | /mahasiswa/{id}/edit | edit | mahasiswa.edit |
-| PUT | /mahasiswa/{id} | update | mahasiswa.update |
-| DELETE | /mahasiswa/{id} | destroy | mahasiswa.destroy |
-| GET | /mahasiswa/pdf | generatePDF | mahasiswa.pdf |
-| GET | /mahasiswa/export | exportExcel | mahasiswa.export |
-
 ## Validasi
 
 - **Nama:** Wajib diisi
-- **NIM:** Wajib diisi, harus unik
-- **Email:** Wajib diisi, format email valid, harus unik
+- **NIM:** Wajib diisi
+- **Email:** Wajib diisi
 
 ## Dependencies
 
